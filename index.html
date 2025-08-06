@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KioskoPay - Tu Negocio, Más Fácil. Tu Gestión, Más Inteligente.</title>
+    <meta name="description" content="La aplicación todo-en-uno para punto de venta, inventario y reportes que tu negocio necesita para crecer. Solicita tu demo gratuita hoy.">
+    <meta name="keywords" content="punto de venta, inventario, reportes, gestión de negocio, México, PyMES">
+    
+    <!-- Fuentes de Google -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Iconos de Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    
+    <!-- CSS Principal -->
+    <link rel="stylesheet" href="styles.css">
+    
+    <!-- Google Analytics 4 -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=GA_MEASUREMENT_ID"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'GA_MEASUREMENT_ID');
+    </script>
+</head>
+<body>
+    <!-- Sección Hero -->
+    <section id="hero" class="hero-section">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1 class="hero-title">Tu Negocio, Más Fácil. Tu Gestión, Más Inteligente.</h1>
+                    <h2 class="hero-subtitle">La solución completa para gestión de tienda, punto de venta, manejo de fiado, integración con terminales de pago y asistente de IA que te ayuda a tomar decisiones inteligentes basadas en datos reales.</h2>
+                    <div class="download-buttons">
+                        <a href="#" class="download-btn google-play" onclick="trackDownload('google-play')">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg" alt="Descargar en Google Play" />
+                        </a>
+                        <a href="#" class="download-btn app-store" onclick="trackDownload('app-store')">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Download_on_the_App_Store_Badge.svg" alt="Descargar en App Store" />
+                        </a>
+                    </div>
+                    <p class="availability-note">Próximamente disponible • Regístrate para ser notificado</p>
+                </div>
+                <div class="hero-visual">
+                    <div class="phone-mockup">
+                        <div class="phone-screen">
+                            <div class="app-interface">
+                                <div class="app-header">
+                                    <div class="logo-small">KioskoPay</div>
+                                    <div class="notification-dot"></div>
+                                </div>
+                                <div class="sales-card">
+                                    <h3>Ventas de Hoy</h3>
+                                    <div class="amount">$2,450</div>
+                                    <div class="growth">+15% vs ayer</div>
+                                    <div class="payment-methods">
+                                        <span class="payment-chip">💳 $1,200</span>
+                                        <span class="payment-chip">💰 $850</span>
+                                        <span class="payment-chip">🤝 $400</span>
+                                    </div>
+                                </div>
+                                <div class="ai-suggestion">
+                                    <div class="ai-icon">🤖</div>
+                                    <div class="suggestion-text">Resurtir refrescos +30%</div>
+                                </div>
+                                <div class="quick-actions">
+                                    <div class="action-btn">Nueva Venta</div>
+                                    <div class="action-btn">Ver Fiados</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección de Puntos de Dolor -->
+    <section id="pain-points" class="pain-points-section">
+        <div class="container">
+            <h2 class="section-title">¿Te identificas con esto?</h2>
+            <div class="pain-points-grid">
+                <div class="pain-point">
+                    <i class="fas fa-clock"></i>
+                    <h3>¿Cansado de los cierres de caja interminables?</h3>
+                    <p>Horas perdidas conciliando efectivo, tarjetas y fiados manualmente</p>
+                </div>
+                <div class="pain-point">
+                    <i class="fas fa-handshake"></i>
+                    <h3>¿Perdiendo dinero por fiados no cobrados?</h3>
+                    <p>Sin control de créditos, límites o recordatorios automáticos</p>
+                </div>
+                <div class="pain-point">
+                    <i class="fas fa-credit-card"></i>
+                    <h3>¿Rechazando ventas por falta de terminal?</h3>
+                    <p>Clientes que quieren pagar con tarjeta pero no puedes aceptar</p>
+                </div>
+                <div class="pain-point">
+                    <i class="fas fa-brain"></i>
+                    <h3>¿Decisiones basadas solo en intuición?</h3>
+                    <p>Sin datos reales para saber qué, cuándo y cuánto comprar</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección de Solución -->
+    <section id="solution" class="solution-section">
+        <div class="container">
+            <h2 class="section-title">KioskoPay lo hace simple</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-mobile-alt"></i>
+                    </div>
+                    <h3>Punto de Venta Inteligente</h3>
+                    <p>Vende en segundos desde tu celular. Código de barras, búsqueda rápida, múltiples formas de pago y recibos digitales.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-store"></i>
+                    </div>
+                    <h3>Gestión Completa de Tienda</h3>
+                    <p>Controla inventario, proveedores, precios y promociones desde una sola app. Todo sincronizado en tiempo real.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-handshake"></i>
+                    </div>
+                    <h3>Manejo de Fiado Inteligente</h3>
+                    <p>Registra créditos, establece límites, programa recordatorios automáticos y lleva control total de cuentas por cobrar.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-credit-card"></i>
+                    </div>
+                    <h3>Terminales de Pago Integradas</h3>
+                    <p>Acepta tarjetas, transferencias y pagos digitales. Conecta con cualquier terminal y recibe pagos al instante.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-robot"></i>
+                    </div>
+                    <h3>Asistente de IA Personalizado</h3>
+                    <p>Tu copiloto inteligente analiza tus datos y te sugiere qué resurtir, cuándo hacer promociones y cómo optimizar ganancias.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h3>Reportes y Analytics Avanzados</h3>
+                    <p>Dashboards en tiempo real, análisis de tendencias, predicciones de demanda y métricas que impulsan tu crecimiento.</p>
+                </div>
+            </div>
+            <div class="cta-secondary-container">
+                <div class="download-buttons secondary">
+                    <a href="#" class="download-btn google-play small" onclick="trackDownload('google-play-secondary')">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg" alt="Descargar en Google Play" />
+                    </a>
+                    <a href="#" class="download-btn app-store small" onclick="trackDownload('app-store-secondary')">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Download_on_the_App_Store_Badge.svg" alt="Descargar en App Store" />
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección de Casos de Uso -->
+    <section id="use-cases" class="use-cases-section">
+        <div class="container">
+            <h2 class="section-title">Perfecto para todo tipo de comercio</h2>
+            <div class="business-types">
+                <div class="business-type">
+                    <i class="fas fa-shopping-cart"></i>
+                    <span>Tiendas de Abarrotes</span>
+                </div>
+                <div class="business-type">
+                    <i class="fas fa-coffee"></i>
+                    <span>Cafeterías</span>
+                </div>
+                <div class="business-type">
+                    <i class="fas fa-tshirt"></i>
+                    <span>Boutiques</span>
+                </div>
+                <div class="business-type">
+                    <i class="fas fa-tools"></i>
+                    <span>Ferreterías</span>
+                </div>
+                <div class="business-type">
+                    <i class="fas fa-cut"></i>
+                    <span>Salones de Belleza</span>
+                </div>
+                <div class="business-type">
+                    <i class="fas fa-bread-slice"></i>
+                    <span>Panaderías</span>
+                </div>
+                <div class="business-type">
+                    <i class="fas fa-laptop"></i>
+                    <span>Servicios Profesionales</span>
+                </div>
+                <div class="business-type">
+                    <i class="fas fa-store"></i>
+                    <span>Y muchos más...</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección de IA y Ventajas Únicas -->
+    <section id="ai-features" class="ai-features-section">
+        <div class="container">
+            <div class="ai-content">
+                <div class="ai-text">
+                    <h2 class="section-title">Tu Asistente de IA Personal</h2>
+                    <p class="ai-subtitle">La primera aplicación para comercios en México con inteligencia artificial integrada</p>
+                    <div class="ai-benefits">
+                        <div class="ai-benefit">
+                            <i class="fas fa-brain"></i>
+                            <div>
+                                <h4>Predicciones Inteligentes</h4>
+                                <p>Analiza patrones de venta y predice qué productos necesitarás resurtir y cuándo</p>
+                            </div>
+                        </div>
+                        <div class="ai-benefit">
+                            <i class="fas fa-lightbulb"></i>
+                            <div>
+                                <h4>Recomendaciones Personalizadas</h4>
+                                <p>Sugiere promociones, descuentos y estrategias basadas en tu histórico de ventas</p>
+                            </div>
+                        </div>
+                        <div class="ai-benefit">
+                            <i class="fas fa-chart-line"></i>
+                            <div>
+                                <h4>Optimización de Precios</h4>
+                                <p>Te ayuda a encontrar el precio perfecto para maximizar ganancias sin perder clientes</p>
+                            </div>
+                        </div>
+                        <div class="ai-benefit">
+                            <i class="fas fa-calendar-alt"></i>
+                            <div>
+                                <h4>Planificación Estacional</h4>
+                                <p>Identifica tendencias y te prepara para temporadas altas con inventario óptimo</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="ai-visual">
+                    <div class="ai-chat-mockup">
+                        <div class="chat-header">
+                            <i class="fas fa-robot"></i>
+                            <span>Asistente KioskoPay</span>
+                            <div class="online-indicator"></div>
+                        </div>
+                        <div class="chat-messages">
+                            <div class="message ai-message">
+                                <div class="message-bubble">
+                                    📊 Buenos días! Analicé tus ventas de la semana pasada
+                                </div>
+                            </div>
+                            <div class="message ai-message">
+                                <div class="message-bubble">
+                                    💡 Te sugiero resurtir refrescos. Tus ventas subieron 30% con el calor
+                                </div>
+                            </div>
+                            <div class="message ai-message">
+                                <div class="message-bubble">
+                                    🎯 También podrías hacer promoción 2x1 en helados esta tarde
+                                </div>
+                            </div>
+                            <div class="message user-message">
+                                <div class="message-bubble">
+                                    ¡Perfecto! ¿Cuánto debo pedir?
+                                </div>
+                            </div>
+                            <div class="message ai-message">
+                                <div class="message-bubble">
+                                    📦 Basado en tu historial: 24 Coca-Cola, 18 Pepsi, 12 Sprite
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección de Testimonios -->
+    <section id="testimonials" class="testimonials-section">
+        <div class="container">
+            <h2 class="section-title">Lo que dicen nuestros clientes</h2>
+            <div class="testimonials-grid">
+                <div class="testimonial">
+                    <div class="testimonial-content">
+                        <i class="fas fa-quote-left quote-icon"></i>
+                        <p>"El asistente de IA me sugirió exactamente qué productos resurtir esta semana. Mis ventas subieron 40% siguiendo sus recomendaciones."</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">
+                            <i class="fas fa-user"></i>
+                        </div>
+                        <div class="author-info">
+                            <h4>Ana González</h4>
+                            <span>Dueña de "Café Aroma"</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial">
+                    <div class="testimonial-content">
+                        <i class="fas fa-quote-left quote-icon"></i>
+                        <p>"Ya no pierdo dinero en fiados. La app me avisa automáticamente cuándo cobrar y mis clientes pueden pagar con tarjeta sin problema."</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">
+                            <i class="fas fa-user"></i>
+                        </div>
+                        <div class="author-info">
+                            <h4>Carlos Mendoza</h4>
+                            <span>Propietario "Tienda Don Carlos"</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial">
+                    <div class="testimonial-content">
+                        <i class="fas fa-quote-left quote-icon"></i>
+                        <p>"Integrar mi terminal de pago fue súper fácil. Ahora acepto cualquier forma de pago y todo se registra automáticamente."</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">
+                            <i class="fas fa-user"></i>
+                        </div>
+                        <div class="author-info">
+                            <h4>María Fernández</h4>
+                            <span>Dueña "Boutique Elegante"</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección de Formulario de Conversión -->
+    <section id="conversion" class="conversion-section">
+        <div class="container">
+            <div class="conversion-content">
+                <div class="conversion-text">
+                    <h2>Sé el primero en transformar tu negocio</h2>
+                    <p>Regístrate para recibir acceso anticipado y descuentos exclusivos cuando lancemos KioskoPay.</p>
+                    <div class="launch-benefits">
+                        <div class="benefit">
+                            <i class="fas fa-gift"></i>
+                            <span>30% de descuento por ser early adopter</span>
+                        </div>
+                        <div class="benefit">
+                            <i class="fas fa-star"></i>
+                            <span>Acceso anticipado antes del lanzamiento</span>
+                        </div>
+                        <div class="benefit">
+                            <i class="fas fa-headset"></i>
+                            <span>Soporte prioritario y personalización gratuita</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="conversion-form">
+                    <form id="notification-form" class="notification-form">
+                        <h3>¡Únete a la lista de espera!</h3>
+                        <div class="form-group">
+                            <input type="text" id="nombre" name="nombre" placeholder="Tu nombre completo" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" placeholder="Tu correo electrónico" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="tel" id="telefono" name="telefono" placeholder="Tu teléfono" required>
+                        </div>
+                        <div class="form-group">
+                            <select id="tipo-negocio" name="tipo_negocio" required>
+                                <option value="">Tipo de negocio</option>
+                                <option value="abarrotes">Tienda de Abarrotes</option>
+                                <option value="cafeteria">Cafetería</option>
+                                <option value="boutique">Boutique</option>
+                                <option value="ferreteria">Ferretería</option>
+                                <option value="salon">Salón de Belleza</option>
+                                <option value="panaderia">Panadería</option>
+                                <option value="servicios">Servicios Profesionales</option>
+                                <option value="otro">Otro</option>
+                            </select>
+                        </div>
+                        <button type="submit" class="cta-primary form-submit">
+                            <i class="fas fa-bell"></i>
+                            Notificarme del Lanzamiento
+                        </button>
+                        <p class="form-disclaimer">Te enviaremos actualizaciones del desarrollo y serás el primero en descargar la app.</p>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <div class="logo">KioskoPay</div>
+                    <p>Tu negocio, más fácil. Tu gestión, más inteligente.</p>
+                </div>
+                <div class="footer-links">
+                    <div class="footer-section">
+                        <h4>Legal</h4>
+                        <ul>
+                            <li><a href="#privacy">Aviso de Privacidad</a></li>
+                            <li><a href="#terms">Términos y Condiciones</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-section">
+                        <h4>Contacto</h4>
+                        <ul>
+                            <li><a href="mailto:hola@kioskopay.com">hola@kioskopay.com</a></li>
+                            <li><a href="tel:+525512345678">+52 55 1234 5678</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-section">
+                        <h4>Síguenos</h4>
+                        <div class="social-links">
+                            <a href="#"><i class="fab fa-facebook"></i></a>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                            <a href="#"><i class="fab fa-linkedin"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 KioskoPay. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>

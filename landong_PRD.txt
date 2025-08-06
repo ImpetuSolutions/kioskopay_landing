@@ -1,0 +1,176 @@
+Documento de Requisitos de Producto (PRD): Landing Page de KioskoPay
+
+Título: Landing Page de Lanzamiento para KioskoPay
+Versión: 1.0
+Fecha: 6 de Agosto de 2025
+Propietario del Producto: Samuel Martinez
+Estado: En redacción
+
+1. Visión General y Propósito
+
+KioskoPay es una aplicación móvil diseñada para simplificar y potenciar la gestión de pequeños y medianos comercios en México. La landing page será el principal embajador digital de KioskoPay y el punto de contacto inicial para nuestros clientes potenciales. Su propósito fundamental es comunicar de manera clara y convincente nuestra propuesta de valor, educar al mercado sobre los beneficios de nuestra solución y convertir visitantes en prospectos calificados (leads).
+
+2. Objetivos y Métricas de Éxito
+
+El éxito de esta landing page se medirá a través de los siguientes objetivos cuantificables:
+
+Objetivo Principal (Conversión): Generar prospectos para el equipo de ventas.
+
+Métrica Clave: Tasa de Conversión. Apuntamos a una tasa de conversión del 5% (visitantes que completan el formulario) en los primeros 3 meses post-lanzamiento.
+
+Métrica Secundaria: Costo por Lead (CPL).
+
+Objetivo Secundario (Engagement): Validar que nuestro mensaje resuena con la audiencia.
+
+Métrica Clave: Tasa de Rebote. Debe ser inferior al 60%.
+
+Métrica Clave: Profundidad de Scroll. Al menos el 50% de los usuarios deben llegar a la sección de "Características Principales".
+
+3. Audiencia Objetivo
+
+Nos dirigimos a propietarios y administradores de pequeños y medianos comercios en México. Nuestro arquetipo de cliente principal es:
+
+"Laura", 38 años, dueña de una cafetería/tienda de abarrotes/boutique.
+
+Puntos de Dolor:
+
+"No sé exactamente cuánto gané hoy hasta que hago el cierre manual."
+
+"Pierdo mucho tiempo contando el inventario a mano."
+
+"No sé qué productos son los que más se venden o los que me dejan más ganancia."
+
+"Me gustaría premiar a mis clientes frecuentes, pero no llevo un registro."
+
+"Las herramientas actuales son muy caras o demasiado complicadas."
+
+Metas y Deseos:
+
+Tener control total de su negocio desde su celular.
+
+Ahorrar tiempo en tareas administrativas para enfocarse en crecer.
+
+Tomar decisiones basadas en datos reales, no en intuición.
+
+La landing page debe hablarle directamente a Laura, usando su lenguaje y abordando sus frustraciones.
+
+4. Propuesta de Valor y Mensajes Clave
+
+Slogan: Tu Negocio, Más Fácil. Tu Gestión, Más Inteligente.
+
+Propuesta de Valor Central: KioskoPay transforma la caótica gestión diaria de tu negocio en un proceso simple e inteligente desde tu celular, dándote el control y el tiempo que necesitas para crecer.
+
+Pilares del Mensaje:
+
+Simplicidad (Más Fácil): Enfatizar la facilidad de uso. Vender, cobrar y gestionar el inventario debe ser una tarea de segundos, no de horas.
+
+Inteligencia (Más Inteligente): Resaltar el poder de los datos. La app no solo registra, sino que ofrece reportes claros y accionables para tomar mejores decisiones.
+
+5. Requisitos Funcionales y Estructura de la Página
+
+La landing page será una página única (One-Page) con un flujo narrativo claro.
+
+Sección 1: Hero (Héroe)
+
+Contenido:
+
+Título principal (H1) con el slogan: "Tu Negocio, Más Fácil. Tu Gestión, Más Inteligente."
+
+Subtítulo (H2): "La aplicación todo-en-uno para punto de venta, inventario y reportes que tu negocio necesita para crecer."
+
+CTA Principal (Call to Action): Un botón prominente con el texto "Solicita una Demo Gratuita".
+
+Visual: Una imagen o video corto mostrando la app KioskoPay en un smartphone o tablet en un entorno de comercio real.
+
+Sección 2: Confianza y Dolor (Social Proof & Pain Points)
+
+Contenido: Una franja con la pregunta: "¿Te identificas con esto?". Seguido de 3-4 puntos de dolor comunes de nuestra audiencia (ej. "¿Cansado de los cierres de caja interminables?", "¿No sabes qué productos resurtir?").
+
+Sección 3: La Solución (Características y Beneficios)
+
+Contenido: Título: "KioskoPay lo hace simple". Presentar 4 características clave en formato de tarjetas con icono, título y descripción breve.
+
+Punto de Venta Rápido: Vende en segundos desde tu celular.
+
+Inventario Automatizado: Tu stock se actualiza con cada venta.
+
+Reportes Inteligentes: Entiende tus ganancias y productos estrella al instante.
+
+Gestión de Clientes (CRM): Conoce y premia a tus clientes más leales.
+
+CTA Secundario: Botón "Ver todas las funciones".
+
+Sección 4: Para Negocios como el Tuyo (Casos de Uso)
+
+Contenido: Título: "Perfecto para todo tipo de comercio". Una sección visual que muestre iconos o imágenes representando diferentes tipos de negocios: Tiendas de abarrotes, Cafeterías, Boutiques, Ferreterías, Servicios profesionales, etc.
+
+Sección 5: Testimonios
+
+Contenido: 2-3 testimonios de clientes ficticios (o reales si se tienen) que refuercen los beneficios. Deben incluir nombre, tipo de negocio y una foto. Ejemplo: "Con KioskoPay, ahora sé exactamente cuál es mi producto más rentable. ¡El control que tengo es increíble!" - Ana G., Dueña de "Café Aroma".
+
+Sección 6: Formulario de Conversión (CTA Final)
+
+Contenido: Un formulario simple y directo.
+
+Título: "Empieza a gestionar tu negocio de forma inteligente."
+
+Campos: Nombre, Email, Teléfono, Nombre del Negocio.
+
+Botón de envío: "Quiero mi Demo".
+
+Microcopy de confianza: "Sin compromiso. Nos pondremos en contacto para agendar una demostración de 15 minutos."
+
+Sección 7: Footer (Pie de Página)
+
+Contenido: Logo de KioskoPay, enlaces a redes sociales (si existen), Aviso de Privacidad, Términos y Condiciones, Contacto.
+
+6. Guía de Estilo Visual (Branding y UI)
+
+Tono Visual: Moderno, enérgico, profesional pero accesible. Debe transmitir confianza y facilidad.
+
+Paleta de Colores:
+
+Primario: #682c86 (Púrpura) - Para fondos de secciones importantes, acentos y elementos de marca.
+
+Acción / CTA Principal: #ef4526 (Naranja-Rojo) - Usar en todos los botones de acción principal para máximo contraste y visibilidad.
+
+Acento Secundario: #f9971c (Naranja-Amarillo) - Para iconos, subrayados o elementos destacados que no son el CTA principal.
+
+Fondo Suave: #cebadd (Lila) - Para fondos de secciones que necesiten un toque de color sutil, como la de testimonios.
+
+Fondo Principal: #f2f2f4 (Gris Claro) - Para el cuerpo principal de la página, asegurando excelente legibilidad del texto oscuro sobre él.
+
+Tipografía: Utilizar una fuente Sans-Serif moderna y legible como Poppins o Inter. Establecer una jerarquía clara (H1, H2, Cuerpo, etc.).
+
+Iconografía: Set de iconos limpios y consistentes para representar las características.
+
+7. Requisitos No Funcionales
+
+Responsividad: Diseño 100% responsive con enfoque "Mobile-First". La experiencia debe ser impecable en todos los tamaños de pantalla.
+
+Rendimiento: Tiempos de carga optimizados. El LCP (Largest Contentful Paint) debe ser inferior a 2.5 segundos.
+
+SEO: Optimización básica on-page: Títulos, meta descripciones, alt text en imágenes.
+
+Analítica: Integración con Google Analytics 4 y Google Tag Manager para el seguimiento de los objetivos definidos.
+
+8. Consideraciones Futuras y Fuera de Alcance
+
+Fuera de Alcance para v1.0:
+
+Blog completo.
+
+Sección de precios detallada (se abordará en la demo).
+
+Portal de inicio de sesión para clientes existentes.
+
+Chat en vivo.
+
+Futuras Iteraciones:
+
+Añadir una sección de "Preguntas Frecuentes (FAQ)".
+
+Crear páginas de detalle para cada característica principal.
+
+Integrar un video de demostración del producto.
+
